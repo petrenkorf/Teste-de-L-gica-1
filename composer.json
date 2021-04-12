@@ -1,0 +1,19 @@
+{
+    "name": "ptrs/logic_test_1",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "authors": [
+        {
+            "name": "Petris Rodrigo Fernandes",
+            "email": "petrisrf@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "Petris\\": "src/"
+        }
+    }
+}
