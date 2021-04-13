@@ -1,6 +1,6 @@
 <?php
 
-namespace Petris\Replacements;
+namespace Petris\Replacements\Interfaces;
 
 interface Replaceable
 {

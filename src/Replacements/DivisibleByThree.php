@@ -2,6 +2,8 @@
 
 namespace Petris\Replacements;
 
+use Petris\Replacements\Interfaces\Replaceable;
+
 class DivisibleByThree implements Replaceable
 {
     public function conditionWasMet(int $number)
