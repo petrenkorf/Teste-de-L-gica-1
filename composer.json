@@ -15,5 +15,10 @@
             "Tests\\": "tests/",
             "Petris\\": "src/"
         }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ]
     }
 }
